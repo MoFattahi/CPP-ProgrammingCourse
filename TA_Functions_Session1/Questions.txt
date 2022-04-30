@@ -1,0 +1,77 @@
+
+
+                                         ** Digit Name ** 
+Write a function named "digit_name" that takes an integer argument in the range from 1 to 9 ,
+inclusive, and prints the English name for that integer on the computer screen. The function should not return a value. If the argument is not in the required range, then the function
+should print "digit error" without the quotation marks but followed by the newline character.
+
+--------------------------------------------------------------------------------------------------------------------
+
+                                            ** CW2 **
+                                        ** Present Value **
+Suppose you want to deposit a certain amount of money into a savings account and then leave it alone to draw interest for the next 10 years. At the end of 10 years you would like to have $10,000 in the account. How much do you need to deposit today to
+Programming Challenges 369 make that happen? You can use the following formula, which is known as the present
+value formula, to find out:
+
+                                        P = F / ((1 + r)^n)
+
+The terms in the formula are as follows:
+• P is the present value, or the amount that you need to deposit today.
+• F is the future value that you want in the account. (In this case, F is $10,000.)
+• r is the annual interest rate.
+• n is the number of years that you plan to let the money sit in the account.
+Write a program that has a function named "presentValue" that performs this calculation. The function should accept the future value, annual interest rate, and number of years as arguments. It should return the present value, which is the amount that you need to deposit today. Demonstrate the function in a program that lets the user experiment with different values for the formula’s terms.
+*/
+--------------------------------------------------------------------------------------------------------------------
+
+                                        ** Temperature Conversion ** 
+Write 3 functions named Celsius, Fahrenheit and Kelvin. Each function accepts an argument which is a temperature in scale as it’s name then returns this temperature in two other scales mentioned. Then call these functions in a loop and show the outputs for (0, 1, 2, 3, 4, 5) as inputs.
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+                                       ** Find Prime Numbers **
+Write an entire C++ program using fuctions that checks primality of each integer from 2 up to a value provided by the user.
+
+--------------------------------------------------------------------------------------------------------------------
+
+                                        ** Order Status **
+The Middletown Wholesale Copper Wire Company sells spools of copper wiring for $100 each. Write a program that displays the status of an order. The program should have functions that ask for the following data:
+• The number of spools ordered.
+• The number of spools in stock.
+• Whether there are special shipping and handling charges.
+(Shipping and handling is normally $10 per spool.) If there are special charges, the program should ask for the special charges per spool.
+The fuctions should be called in another function that displays
+• The number of spools ready to ship from current stock.
+• The number of spools on backorder (if the number ordered is greater than what is
+in stock).
+• Subtotal of the portion ready to ship.
+• Total shipping and handling charges on the portion ready to ship.
+• Total of the order ready to ship.
+
+
+
+Input Validation: Do not accept numbers less than 1 for spools ordered. Do not accept a number less than 0 for spools in stock or shipping and handling charges.
+
+--------------------------------------------------------------------------------------------------------------------
+
+                                        ** Falling Distance **
+When an object is falling because of gravity, the following formula can be used to determine the distance the object falls in a specific time period:
+d = (1/2)*g*(t^2)
+The variables in the formula are as follows: d is the distance in meters, g is 9.8, and t
+is the amount of time, in seconds, that the object has been falling.
+Write a function named fallingDistance that accepts an object’s falling time (in seconds) as an argument. The function should return the distance, in meters, that the object has fallen during that time interval. Write a program that demonstrates the function by calling it in a loop that passes the values 1 through 10 as arguments and displays the return value.
+
+--------------------------------------------------------------------------------------------------------------------
+
+                                        ** Coin Toss **
+Write a function named coinToss that simulates the tossing of a coin. When you call the function, it should generate a random number in the range of 1 through 2. If the random number is 1, the function should display “heads.” If the random number is 2, the function should display “tails.” Demonstrate the function in a program that asks the user how many times the coin should be tossed and then simulates the tossing of the coin that number of times.
+
+--------------------------------------------------------------------------------------------------------------------
+ 
+                                        ** Fibonacci **
+Write a function that finds the #n integer of the "Fibonacci sequence". Then build a minimal program to test it.
+ 
+--------------------------------------------------------------------------------------------------------------------
+
+
